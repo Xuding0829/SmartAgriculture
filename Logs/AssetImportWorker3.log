@@ -1,0 +1,1081 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.43f1c1 (7a2282349f6f) revision 8004226'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16183 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Application\unityEditor\2022.3.43f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Code/Unity/shuzi
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+6070
+Successfully changed project path to: D:/Code/Unity/shuzi
+D:/Code/Unity/shuzi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45516]  Target information:
+
+Player connection [45516]  * "[IP] 169.254.24.111 [Port] 0 [Flags] 2 [Guid] 3296080749 [EditorId] 3296080749 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3NKRGKHF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45516]  * "[IP] 169.254.192.246 [Port] 0 [Flags] 2 [Guid] 3296080749 [EditorId] 3296080749 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3NKRGKHF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45516]  * "[IP] 10.205.82.104 [Port] 0 [Flags] 2 [Guid] 3296080749 [EditorId] 3296080749 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3NKRGKHF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45516] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 115.07 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1c1 (7a2282349f6f)
+[Subsystems] Discovering subsystems at path D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Code/Unity/shuzi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8091 MB
+    Driver:   30.0.100.9864
+Shader 'Unlit/ChromaKey2': fallback shader 'Unlit' not found
+Initialize mono
+Mono path[0] = 'D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Application/unityEditor/2022.3.43f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.073690 seconds.
+- Loaded All Assemblies, in  1.240 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.946 seconds
+Domain Reload Profiling: 2182ms
+	BeginReloadAssembly (399ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (133ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (244ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (421ms)
+			TypeCache.Refresh (417ms)
+				TypeCache.ScanAssembly (384ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (948ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (782ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.086 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.918 seconds
+Domain Reload Profiling: 7001ms
+	BeginReloadAssembly (596ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (2203ms)
+		LoadAssemblies (1664ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (816ms)
+			TypeCache.Refresh (691ms)
+				TypeCache.ScanAssembly (647ms)
+			ScanForSourceGeneratedMonoScriptInfo (83ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (3920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3067ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (387ms)
+			ProcessInitializeOnLoadAttributes (2555ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Shader 'Unlit/ChromaKey2': fallback shader 'Unlit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 45.39 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3856 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.6 MB). Loaded Objects now: 4329.
+Memory consumption went from 258.8 MB to 256.2 MB.
+Total: 11.575200 ms (FindLiveObjects: 0.443500 ms CreateObjectMapping: 0.542600 ms MarkObjects: 9.022400 ms  DeleteObjects: 1.563600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 340899.613450 seconds.
+  path: Assets/Plugins/Chart And Graph/Resources/MenuPrefabs/3DRadar.prefab
+  artifactKey: Guid(5cab1a54703bdc74582c3e732571a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Chart And Graph/Resources/MenuPrefabs/3DRadar.prefab using Guid(5cab1a54703bdc74582c3e732571a650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b39a0ba827913a1efa7b6d4e2ae7d6c') in 0.323330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 476
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/AirConditioner.prefab
+  artifactKey: Guid(bde72112b304cd8438fd00218986add5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/AirConditioner.prefab using Guid(bde72112b304cd8438fd00218986add5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '887afc14373aba210984f77888afe9f3') in 0.225239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 473
+========================================================================
+Received Import Request.
+  Time since last request: 0.808579 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart001_Yellow.prefab
+  artifactKey: Guid(5a75af4157728d04d96530c6a45052e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart001_Yellow.prefab using Guid(5a75af4157728d04d96530c6a45052e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '06ea21fc61b085fd62dd94ee483584af') in 0.030891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002578 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart002_Purple.prefab
+  artifactKey: Guid(3d5f6d04c4daa9c42892998292efb244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart002_Purple.prefab using Guid(3d5f6d04c4daa9c42892998292efb244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6975b7acc01fda989b456bf68e568a5') in 0.025865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.279585 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart003_Purple.prefab
+  artifactKey: Guid(8a0f88e982ca739488cdc108307c43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart003_Purple.prefab using Guid(8a0f88e982ca739488cdc108307c43b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0b31655242ce8e08aef019b453d81f8') in 0.035472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart003_Yellow.prefab
+  artifactKey: Guid(592cd05f4beeda843b9a5d312e6ab2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart003_Yellow.prefab using Guid(592cd05f4beeda843b9a5d312e6ab2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd9cee706bbe1d5a8fac1825131638241') in 0.035592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart004_Purple.prefab
+  artifactKey: Guid(995562b34049412468ac600f637ee8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart004_Purple.prefab using Guid(995562b34049412468ac600f637ee8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1bb9f51b1e6969dde3c721f032ba6b7b') in 0.045564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart005_Cyan.prefab
+  artifactKey: Guid(45918c399eecbfb4cad5d8085b2f92be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart005_Cyan.prefab using Guid(45918c399eecbfb4cad5d8085b2f92be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f751d917cfdc671b47bc67418229710') in 0.033397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.208852 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart006_Green_Left.prefab
+  artifactKey: Guid(8d752c9360c164742a7773f5cccf2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart006_Green_Left.prefab using Guid(8d752c9360c164742a7773f5cccf2d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4448c3375451d2b5a49f78cf3321082c') in 0.044503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart006_Red_Right.prefab
+  artifactKey: Guid(997a87873ffe8254b80d3bcdd0b10c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Bar Chart/BarChart006_Red_Right.prefab using Guid(997a87873ffe8254b80d3bcdd0b10c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd1e695797f0d633eb9696bb5a14b033') in 0.037914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/Chart And Graph/Prefabs/Text/BlackText.prefab
+  artifactKey: Guid(68948a5a024a9554389929d60ee952ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Chart And Graph/Prefabs/Text/BlackText.prefab using Guid(68948a5a024a9554389929d60ee952ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2921c6faa2b2af2b02ac80a7fb0fd08') in 0.049028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 2.568651 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_NCorner_-Y.prefab
+  artifactKey: Guid(7858e0c20f6beac4bb871836c6278886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_NCorner_-Y.prefab using Guid(7858e0c20f6beac4bb871836c6278886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11d15dac950bf76af913a59cb10cb582') in 0.086125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Form/Check box_Off.prefab
+  artifactKey: Guid(293f1502a8b1a0647bc281a403da3b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Form/Check box_Off.prefab using Guid(293f1502a8b1a0647bc281a403da3b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd0b235e1bde846c01c8ee43c84161572') in 0.043008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Form/Check box_On.prefab
+  artifactKey: Guid(7e240163e2798444e9288ffa5941ff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Form/Check box_On.prefab using Guid(7e240163e2798444e9288ffa5941ff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd8fb3229f720a8f98a20d84a48b21e9') in 0.047033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_WCorner_-X.prefab
+  artifactKey: Guid(57de9068a05deea43a2b2f2797b5ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_WCorner_-X.prefab using Guid(57de9068a05deea43a2b2f2797b5ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'efb6d00c5eaeb8c5ab44d4649b6f2839') in 0.115055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_NCorner_Y.prefab
+  artifactKey: Guid(d1b99b85e387b264fa93f0a8f2b55ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/Cable_NCorner_Y.prefab using Guid(d1b99b85e387b264fa93f0a8f2b55ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9c6f00b68efaa53777efe71e14e983b') in 0.138611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 0.488609 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress001_Orange_Bg.prefab
+  artifactKey: Guid(948c716cab81cb546baa25d7d7a7c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress001_Orange_Bg.prefab using Guid(948c716cab81cb546baa25d7d7a7c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a20ac8fdd1a977b04d6bf67eb2150302') in 0.044439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress002_Green_Bg.prefab
+  artifactKey: Guid(6fdf0d57ce14d924c862edc83418b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress002_Green_Bg.prefab using Guid(6fdf0d57ce14d924c862edc83418b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '302725d9b8fe48c9618cd5ecc5a9f82b') in 0.048420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress003_Cyan_Bg.prefab
+  artifactKey: Guid(d1a3a5ee02eacdb4790bb8d6681d3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress003_Cyan_Bg.prefab using Guid(d1a3a5ee02eacdb4790bb8d6681d3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4500a2d7e4c3a6439b2e34d8ac9060e2') in 0.060956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress001_Yellow_Bg.prefab
+  artifactKey: Guid(489d9d386da48694dae565466512e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress001_Yellow_Bg.prefab using Guid(489d9d386da48694dae565466512e058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c4dae3ae3d6944717ab2335dbab088f') in 0.051699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.021727 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress004_Cyan_Bg.prefab
+  artifactKey: Guid(2aa3d81790d91ff48872d63b40b96b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress004_Cyan_Bg.prefab using Guid(2aa3d81790d91ff48872d63b40b96b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f256ad68d18e7864f57f6780b8b8b51') in 0.045393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress004_Yellow_Bg.prefab
+  artifactKey: Guid(1ed1a940a6cd3684f91d2ce96b58c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/CircularProgressBar/CircularProgress004_Yellow_Bg.prefab using Guid(1ed1a940a6cd3684f91d2ce96b58c861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '25a7e0ecb28c473fbce53c91ff865566') in 0.051462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 39.987732 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_0/Crown_0_6m.prefab
+  artifactKey: Guid(101cde83339a6c94382514a2ed4f027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_0/Crown_0_6m.prefab using Guid(101cde83339a6c94382514a2ed4f027a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ade95cbfaf968e74f312930a3a7e559') in 0.289479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Import Request.
+  Time since last request: 0.232982 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_0/Crown_0_RCornerHider.prefab
+  artifactKey: Guid(436e60c3bae61a443bd44731f8cae548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_0/Crown_0_RCornerHider.prefab using Guid(436e60c3bae61a443bd44731f8cae548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54b89929c1ab11c36d85b0b272208271') in 0.102618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_1/Crown_1_LCornerHider.prefab
+  artifactKey: Guid(88f99c5e4ab12e34e8792f20eb54fd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_1/Crown_1_LCornerHider.prefab using Guid(88f99c5e4ab12e34e8792f20eb54fd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '38f48641228259c3433523628c939e5e') in 0.192072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_1/Crown_1_LCorner.prefab
+  artifactKey: Guid(7bf6315366495bc488cba18fd66ec73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_1/Crown_1_LCorner.prefab using Guid(7bf6315366495bc488cba18fd66ec73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aeda497b17092ab03ae950a338f86099') in 0.123794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_1m.prefab
+  artifactKey: Guid(9e634d39870091e4f97a9ede69308ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_1m.prefab using Guid(9e634d39870091e4f97a9ede69308ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4769c224aa046a84312ce9cd900d6441') in 0.163915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 267
+========================================================================
+Received Import Request.
+  Time since last request: 0.320895 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_LCornerSmall.prefab
+  artifactKey: Guid(7808afa293d611c429a016cfc696d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_LCornerSmall.prefab using Guid(7808afa293d611c429a016cfc696d738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ee49a4fd4327c941846e6ee9eb9e905') in 0.186172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 267
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_RCorner.prefab
+  artifactKey: Guid(f401abb2786c5ff4783e00b8c7c67de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/FacadePices/Crown_2/Crown_2_RCorner.prefab using Guid(f401abb2786c5ff4783e00b8c7c67de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7be427925fdb1add94904aa716de664') in 0.147503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 267
+========================================================================
+Received Import Request.
+  Time since last request: 0.262358 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Dashboard/Dashboard002_Orange.prefab
+  artifactKey: Guid(c87401e769ee410478573a1aab77c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Dashboard/Dashboard002_Orange.prefab using Guid(c87401e769ee410478573a1aab77c411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '79691bcaf43e03a18001e6ae4f9c40d6') in 0.073052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Dashboard/Dashboard003_Blue.prefab
+  artifactKey: Guid(f6ae6a217c7ba2f4f895391990a9f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Dashboard/Dashboard003_Blue.prefab using Guid(f6ae6a217c7ba2f4f895391990a9f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2a80f877c13fa594da962d49562fda93') in 0.068050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.113943 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization01/Data01_EventPanel04.prefab
+  artifactKey: Guid(14444084b735a424cb61b76ecf763015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization01/Data01_EventPanel04.prefab using Guid(14444084b735a424cb61b76ecf763015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7d4e4d60e2b4f5f9561410d27aa66b4') in 0.058369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 426
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel03.prefab
+  artifactKey: Guid(a839cbd3a615d224096a845c5b6d06af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel03.prefab using Guid(a839cbd3a615d224096a845c5b6d06af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2559f1850f4708355579f02d685ff36b') in 0.083728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel07.prefab
+  artifactKey: Guid(7ecbca23d2c331149a64ccc18ce90c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel07.prefab using Guid(7ecbca23d2c331149a64ccc18ce90c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '878febd8d118f36047cee5e8eb11b2b9') in 0.065644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization01/Data01_EventPanel05.prefab
+  artifactKey: Guid(3316616d776abf14f89b4f5ffa5d4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization01/Data01_EventPanel05.prefab using Guid(3316616d776abf14f89b4f5ffa5d4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a498853689f52ccbae2f1a4ebe843e5') in 0.060211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel04.prefab
+  artifactKey: Guid(d460dae2366df6849977939e2e43f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization02/Data02_EventPanel04.prefab using Guid(d460dae2366df6849977939e2e43f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '333f0335b0502be21b259c878a22be60') in 0.084250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.799613 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel05.prefab
+  artifactKey: Guid(41f9b74a0cca6a946a7b4e98a558fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel05.prefab using Guid(41f9b74a0cca6a946a7b4e98a558fe32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82e2802f0eb999161c6ce98d724aa9dd') in 0.042337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel08.prefab
+  artifactKey: Guid(67349d0da4dd5da429ca2a101fed6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel08.prefab using Guid(67349d0da4dd5da429ca2a101fed6ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f037fc3989d905ca7499b284a09a11f') in 0.035915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel06.prefab
+  artifactKey: Guid(3a9f826b9048a17499fe5f0e86089637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization04/Data04_EventPanel06.prefab using Guid(3a9f826b9048a17499fe5f0e86089637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '257fe3eda25caaac543728fc84f85b0f') in 0.074188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 0.215089 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Blue.prefab
+  artifactKey: Guid(526a68e8b45098d489dc9703661c65c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Blue.prefab using Guid(526a68e8b45098d489dc9703661c65c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aedceacbc0efa6775c8b81ccca73d914') in 0.038998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Green.prefab
+  artifactKey: Guid(8c21397ef9be4324c86640fda737aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Green.prefab using Guid(8c21397ef9be4324c86640fda737aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b827b724e9f1b9deef95b9f38bf3b42') in 0.029905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Yellow.prefab
+  artifactKey: Guid(d953c66ffb4ad574084513528a3bcac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay001_Yellow.prefab using Guid(d953c66ffb4ad574084513528a3bcac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5eef34e74f4408b11b860a010fc9ecf0') in 0.048195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 2.000070 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay002_Purple.prefab
+  artifactKey: Guid(7e40472a97bf4df40b93c77ed1730922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay002_Purple.prefab using Guid(7e40472a97bf4df40b93c77ed1730922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d82a80bf00c0421de5f5a9ec399242b') in 0.024142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.230113 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay003_Green.prefab
+  artifactKey: Guid(ea7af915a8f109b43b3466b58e754d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay003_Green.prefab using Guid(ea7af915a8f109b43b3466b58e754d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6fdd2465a611ef7ec13eee8fdd53b62') in 0.028503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Blue.prefab
+  artifactKey: Guid(0e17f1e199eb1ad4980d4a46c03c0f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Blue.prefab using Guid(0e17f1e199eb1ad4980d4a46c03c0f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62d22119904cdaccd3a57151bbb3733d') in 0.040349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.034459 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Purple.prefab
+  artifactKey: Guid(11833ce757091d741ac1c6f1a4426769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Purple.prefab using Guid(11833ce757091d741ac1c6f1a4426769) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7e10f3250e665f19be53e6606fb7911') in 0.029324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Yellow.prefab
+  artifactKey: Guid(c805f6bac82f0054e924b56bd7cbafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display/DataDisplay004_Yellow.prefab using Guid(c805f6bac82f0054e924b56bd7cbafad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '269ad1cf93d89b701430c9a0b86f0686') in 0.042068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.127115 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display(Large)/DataDisplay_Large003_Blue.prefab
+  artifactKey: Guid(04ae6c42e9854c84ebc291fb1e55a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Display(Large)/DataDisplay_Large003_Blue.prefab using Guid(04ae6c42e9854c84ebc291fb1e55a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be0acbdc4e34528b712c6a13f1d6a1e6') in 0.039136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Panel/DataPanel001White.prefab
+  artifactKey: Guid(c2987233f4580474bbeae8843fd2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Data Panel/DataPanel001White.prefab using Guid(c2987233f4580474bbeae8843fd2c9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b42599f3149e8ca037ed74ad6c4aafe') in 0.038826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization03_Blue/DecorativeLine_Left.prefab
+  artifactKey: Guid(b5129045c6e8d8649a711d59ebe507aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization03_Blue/DecorativeLine_Left.prefab using Guid(b5129045c6e8d8649a711d59ebe507aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98b18efc4e9b203b4c3c2740bb773d8d') in 0.021172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization03_Cyan/DecorativeLine_Left.prefab
+  artifactKey: Guid(74321b5954147fb4cb5a88887516e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Data Visualization03_Cyan/DecorativeLine_Left.prefab using Guid(74321b5954147fb4cb5a88887516e50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f026e012bd58ffd7d04769ad226dc594') in 0.024887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.220874 seconds.
+  path: Assets/Plugins/Chart And Graph/Resources/Chart And Graph/DefualtGraphCategoryStyle2D.prefab
+  artifactKey: Guid(67a95eadc308c7240bcca56600b44c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Chart And Graph/Resources/Chart And Graph/DefualtGraphCategoryStyle2D.prefab using Guid(67a95eadc308c7240bcca56600b44c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a24a35e4611c4db34df008e8981742c8') in 0.351460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1893
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/Door_1 Variant.prefab
+  artifactKey: Guid(234946a9d33394e49ae6287bc9a2958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/Door_1 Variant.prefab using Guid(234946a9d33394e49ae6287bc9a2958e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b551a3d12636162cf25a4d7268632ce') in 0.219432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/Door_2 Variant.prefab
+  artifactKey: Guid(77702f6933da85b459d2fbe1478309d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/Door_2 Variant.prefab using Guid(77702f6933da85b459d2fbe1478309d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8db18942d17a5a51e152f7ddfd52f002') in 0.204607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/Door_6 Variant.prefab
+  artifactKey: Guid(ddab45723e8fd674aacefdf6b691dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/Door_6 Variant.prefab using Guid(ddab45723e8fd674aacefdf6b691dad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '270b7a8dfe233c57bd1d94db62d04b3f') in 0.156325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 11.226300 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/OtherWayDoors/Door_Glass_0_1_R Variant.prefab
+  artifactKey: Guid(6beb969c615b1d2448245395cae7f153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/OtherWayDoors/Door_Glass_0_1_R Variant.prefab using Guid(6beb969c615b1d2448245395cae7f153) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03e409ebc7726e77987f135e760a1d58') in 0.180055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/Door_Glass_1_2 Variant.prefab
+  artifactKey: Guid(ad9072212fad6f94c9a9242abceb54e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/Door_Glass_1_2 Variant.prefab using Guid(ad9072212fad6f94c9a9242abceb54e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ff726254a8fb7deda0935c3ee57de6a') in 0.164973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.018334 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_3.prefab
+  artifactKey: Guid(3f39a352b833a8442bcf6a37f0aa7d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_3.prefab using Guid(3f39a352b833a8442bcf6a37f0aa7d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3c92524cfd055a6ece5edfad7db29e1') in 0.092787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_6.prefab
+  artifactKey: Guid(a85a0a0b9ea3f9042a0945dfe8f8d968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_6.prefab using Guid(a85a0a0b9ea3f9042a0945dfe8f8d968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '65645589962f87edbdf9968f15d6d248') in 0.090319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 186
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Pie and Doughnut Chart/Doughnut Chart 003.prefab
+  artifactKey: Guid(c0d8c055fd5c43c43a2953a5de4080db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Pie and Doughnut Chart/Doughnut Chart 003.prefab using Guid(c0d8c055fd5c43c43a2953a5de4080db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1df546ecbde72fefeeaa0cadcfa21489') in 0.036210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_12.prefab
+  artifactKey: Guid(9f0611d9dc9e0db49862f56cba8c8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/Doors/DoubleDoors/DoubleDoor_12.prefab using Guid(9f0611d9dc9e0db49862f56cba8c8970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27d947f9d1d561d118511fca709e967a') in 0.119254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 188
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_.prefab
+  artifactKey: Guid(a595455341f43424fa690d0c8876f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_.prefab using Guid(a595455341f43424fa690d0c8876f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1f19a3dc8ba2244600e856de425e99d') in 0.067178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_NCorner_-Y.prefab
+  artifactKey: Guid(ceeae889d729a974390218ba428f6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_NCorner_-Y.prefab using Guid(ceeae889d729a974390218ba428f6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c953ac94e89c23e86f855a58dea1a244') in 0.125853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_WCorner_base_X.prefab
+  artifactKey: Guid(5197e136bceea55458e914a5ba17590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_WCorner_base_X.prefab using Guid(5197e136bceea55458e914a5ba17590e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3655508ff7cc8070830aedd5cb351dc8') in 0.087594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 294
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_WCorner_-Y.prefab
+  artifactKey: Guid(aeb5267332a883e4db80b95b29e0e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/DrainPipe/DrainPipe_WCorner_-Y.prefab using Guid(aeb5267332a883e4db80b95b29e0e280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '322a3495ade018429eacf0d6d026b063') in 0.071632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Import Request.
+  Time since last request: 0.077280 seconds.
+  path: Assets/Plugins/Chart And Graph/Prefabs/Text/ExoText_LightBlue.prefab
+  artifactKey: Guid(7324a740072b1044ea09cb36f681f944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Chart And Graph/Prefabs/Text/ExoText_LightBlue.prefab using Guid(7324a740072b1044ea09cb36f681f944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9ddc16781212382cf6d04e579d0c1e3a') in 0.024649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.086572 seconds.
+  path: Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/FuseBox.prefab
+  artifactKey: Guid(60553641a2337fc4a8f4cd39c767821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BuildingMakerToolset/_Prefabs/PipesAndCables/Cable/prefabs/FuseBox.prefab using Guid(60553641a2337fc4a8f4cd39c767821c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1d54248f04e4b93d137470b7a903bd4') in 0.073509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 473
+========================================================================
+Received Import Request.
+  Time since last request: 0.951026 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram001_Purple.prefab
+  artifactKey: Guid(f709102089b23604da954b8610fad8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram001_Purple.prefab using Guid(f709102089b23604da954b8610fad8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1f8a9e6d1126e5113cbc1d89c96e047d') in 0.029590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.167522 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram002_Green.prefab
+  artifactKey: Guid(647fc92d478094e4e8d8cab534e48a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram002_Green.prefab using Guid(647fc92d478094e4e8d8cab534e48a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b967921c5db419de9c3a045ac4161aba') in 0.037202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram002_Purple.prefab
+  artifactKey: Guid(52ebd6a809ae3d149b54aee00704f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram002_Purple.prefab using Guid(52ebd6a809ae3d149b54aee00704f9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50bc7d81ea277e2de27af2dc9de10d67') in 0.039140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.303668 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram003_Yellow.prefab
+  artifactKey: Guid(55e2c3649ca52404793454d8b15649e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram003_Yellow.prefab using Guid(55e2c3649ca52404793454d8b15649e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3b802dc2d5c073eaac5403ed0f3868f') in 0.027849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.180612 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram004_Red.prefab
+  artifactKey: Guid(f4cbf15a8035ccf469eb3486fb60a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram004_Red.prefab using Guid(f4cbf15a8035ccf469eb3486fb60a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69318477da012f9b7946b6a20042d479') in 0.024027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Green_Down.prefab
+  artifactKey: Guid(0f79922eb98e08b4786d21a6ac978fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Green_Down.prefab using Guid(0f79922eb98e08b4786d21a6ac978fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '230d1cf1a0facea1622179c7ba55545d') in 0.027542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.292901 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Purple_Up.prefab
+  artifactKey: Guid(94cb9a4945da5c444ab03957e6cd62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Purple_Up.prefab using Guid(94cb9a4945da5c444ab03957e6cd62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b28bb37d212a8a07ffb0fdb815257677') in 0.035423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.038502 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Yellow_Up.prefab
+  artifactKey: Guid(3273e96769a02e3438b7c07fa536ea95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram005_Yellow_Up.prefab using Guid(3273e96769a02e3438b7c07fa536ea95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '434e0b12e690808326fb3abcab222ed7') in 0.026369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.156817 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram006_Red.prefab
+  artifactKey: Guid(18c6553ac3f318d4798595d275d0a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Histogram/Histogram006_Red.prefab using Guid(18c6553ac3f318d4798595d275d0a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b988ad0973ccd300b6f90ffb3e841fa1') in 0.032243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.208748 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location01_Green(3D).prefab
+  artifactKey: Guid(3ae557ff367e8b441b3e5554f30a7151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location01_Green(3D).prefab using Guid(3ae557ff367e8b441b3e5554f30a7151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a33b43fac8ec465e186c59eae707b454') in 0.039460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location01_Red(3D).prefab
+  artifactKey: Guid(8df5b921cdd37a24a86af2f6c1a9320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location01_Red(3D).prefab using Guid(8df5b921cdd37a24a86af2f6c1a9320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f56b7eca28eb47696d5f1ff29e3ff66') in 0.025213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Location(2D)/Icon_location01_Yellow.prefab
+  artifactKey: Guid(e965fd2f231f81946b77e0bd057b386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Location(2D)/Icon_location01_Yellow.prefab using Guid(e965fd2f231f81946b77e0bd057b386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0e319c004bac50add9ddf50376a09e4') in 0.028217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.218541 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location02_Orange(3D).prefab
+  artifactKey: Guid(24ce3ffe8226bfd42ad5b047a09badf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location02_Orange(3D).prefab using Guid(24ce3ffe8226bfd42ad5b047a09badf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9db645476f047b6e94b1fcecdbd0dd25') in 0.041766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.183551 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location02_White(3D).prefab
+  artifactKey: Guid(8781d2eb473363a4285d3535182c63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location02_White(3D).prefab using Guid(8781d2eb473363a4285d3535182c63c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ebb705add997b78b39b49808703d4ef') in 0.024572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.080246 seconds.
+  path: Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location03_Cyan(3D).prefab
+  artifactKey: Guid(7f0164a9b829eb348b93856c615e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiple Data Visualization Resources/Prefabs/Prefab_Multiple Components/Loctaion(3D)/Icon_location03_Cyan(3D).prefab using Guid(7f0164a9b829eb348b93856c615e32cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '919d116926f8484eef17293a9b32b66e') in 0.059201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 2.566931 seconds.
+  path: Assets/Mods/tree/Prefabs/5/Tree 10.prefab
+  artifactKey: Guid(68c9e70f149d45041bd6adabf705e9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/5/Tree 10.prefab using Guid(68c9e70f149d45041bd6adabf705e9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '749ccb89485d2185ec9a490f0b992e2f') in 2.742545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Mods/tree/Prefabs/0/Tree2.prefab
+  artifactKey: Guid(796a8142bd2966640821b474e7fd3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/0/Tree2.prefab using Guid(796a8142bd2966640821b474e7fd3ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '371497708b966b7761c6bc42e3fdf996') in 1.034687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.977655 seconds.
+  path: Assets/Mods/tree/Prefabs/Palm/Tree 1.prefab
+  artifactKey: Guid(b1264dc7ac6785e4f94da7d3feae108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/Palm/Tree 1.prefab using Guid(b1264dc7ac6785e4f94da7d3feae108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7458c77ae7a2b1c96b710534009c4f4d') in 0.303767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mods/tree/Prefabs/5/Tree 4.prefab
+  artifactKey: Guid(5c8f1a7d51fe1c44fa5564419b1bd1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/5/Tree 4.prefab using Guid(5c8f1a7d51fe1c44fa5564419b1bd1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e919b3f46d17d06b880d34e15fa23135') in 0.201691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Mods/tree/Prefabs/3/Tree 5.prefab
+  artifactKey: Guid(0a46f142cfbe4a144948e065be82bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/3/Tree 5.prefab using Guid(0a46f142cfbe4a144948e065be82bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '99a6dcfc0a1f57094b90e86e34ea0536') in 0.162746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Mods/tree/Prefabs/Palm/Tree 3.prefab
+  artifactKey: Guid(e8a8c9811ff3daf48b2b9ba8135c619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/Palm/Tree 3.prefab using Guid(e8a8c9811ff3daf48b2b9ba8135c619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf7009b248e14041c6b88568a15a6d0f') in 0.276393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Mods/tree/Prefabs/5/Tree 7.prefab
+  artifactKey: Guid(23db83dfd140ec346b60d4f59de10212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/tree/Prefabs/5/Tree 7.prefab using Guid(23db83dfd140ec346b60d4f59de10212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0021eb45db0f6def1e688232fef3ddeb') in 0.155641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 35.350848 seconds.
+  path: Assets/Mods/Grass/Grass 4.png
+  artifactKey: Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Grass/Grass 4.png using Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dfb9882896c9238fe6e2a6b915dea4a9') in 0.042351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Mods/Flower/Grass Flower 9.png
+  artifactKey: Guid(be71e7916ae7b0e4faf4d22ccf62ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Flower/Grass Flower 9.png using Guid(be71e7916ae7b0e4faf4d22ccf62ad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '092078a8e90f39f92183697fba3caed0') in 0.060837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mods/Flower/Grass Flower 4.png
+  artifactKey: Guid(95836ce2bec877a4a8e8669de12ee50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mods/Flower/Grass Flower 4.png using Guid(95836ce2bec877a4a8e8669de12ee50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3baf0ab16da5bc610acd195f030e7762') in 0.077817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
